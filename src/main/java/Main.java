@@ -15,7 +15,7 @@ import singleton.Singleton;
 
 
 public class Main {
-    public static void main(String[] args) {
+    public static void main_decorator(String[] args) {
         Component component = new ConcreteComponent();
         component = new ConcreteDecorator(component);
         component.operation();
