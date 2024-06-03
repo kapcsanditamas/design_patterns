@@ -13,7 +13,6 @@ import observer.Observer;
 import observer.Subject;
 import singleton.Singleton;
 
-
 public class Main {
     public static void main(String[] args) {
 
